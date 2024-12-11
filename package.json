@@ -1,0 +1,28 @@
+{
+  "author": "nunzioono (nunzioonorati@gmail.com)",
+  "name": "@nunzioono/react-dnd",
+  "version": "0.0.1",
+  "description": "An easy way of configuring drag and drop in react",
+  "repository": {
+    "url": "git+https://github.com/nunzioono/react-easy-dnd.git",
+    "type": "git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.10",
+    "@types/react": "^19.0.1",
+    "react": "^19.0.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
